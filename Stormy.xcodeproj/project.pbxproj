@@ -13,6 +13,7 @@
 		656FF2761ABB8EC2007B9848 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FF2751ABB8EC2007B9848 /* Images.xcassets */; };
 		656FF2791ABB8EC2007B9848 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656FF2771ABB8EC2007B9848 /* LaunchScreen.xib */; };
 		656FF2851ABB8EC3007B9848 /* StormyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF2841ABB8EC3007B9848 /* StormyTests.swift */; };
+		65787D911ABCEB2F0087E48B /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65787D901ABCEB2F0087E48B /* Current.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		656FF27E1ABB8EC3007B9848 /* StormyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FF2831ABB8EC3007B9848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656FF2841ABB8EC3007B9848 /* StormyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyTests.swift; sourceTree = "<group>"; };
+		65787D901ABCEB2F0087E48B /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				656FF26E1ABB8EC2007B9848 /* AppDelegate.swift */,
+				65787D901ABCEB2F0087E48B /* Current.swift */,
 				656FF2701ABB8EC2007B9848 /* ViewController.swift */,
 				656FF2721ABB8EC2007B9848 /* Main.storyboard */,
 				656FF2751ABB8EC2007B9848 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65787D911ABCEB2F0087E48B /* Current.swift in Sources */,
 				656FF2711ABB8EC2007B9848 /* ViewController.swift in Sources */,
 				656FF26F1ABB8EC2007B9848 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				656FF28A1ABB8EC3007B9848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		656FF28B1ABB8EC3007B9848 /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				656FF28D1ABB8EC3007B9848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
